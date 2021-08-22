@@ -167,7 +167,7 @@ $(document).ready(function () {
    function agregarCitaTable() {
        //Funión de btn_table para agregar cita
     $(".btn-table").click(function (e) { 
-        e.preventDefault();
+        // e.preventDefault();
         $("tr").click(function (e) {    
             e.preventDefault();
             let arrayCita=JSON.parse(localStorage.getItem("Guardar_Cita")) || [];
