@@ -84,7 +84,7 @@ $(document).ready(function () {
             const arrayCirguiaAmbulatorioa = [{hora:"05:00pm",nombre:"Tiffanny Valeria Avila Vega",consultorio:"4"},{hora:"06:30pm",nombre:"Nilson Bermudez Gomez",consultorio:"5"},{hora:"07:30pm",nombre:"Itzel Carranza Cedeño",consultorio:"6"} ]
                 arrayCirguiaAmbulatorioa.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -92,7 +92,7 @@ $(document).ready(function () {
             const arrayNutricion = [{hora:"03:00pm",nombre:"Edric Gonzalez Peña",consultorio:"7"},{hora:"04:30pm",nombre:"Jhio Bonilla Arauz",consultorio:"8"},{hora:"05:30pm",nombre:"José  Membreño Carranza",consultorio:"6"} ]
                 arrayNutricion.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -100,7 +100,7 @@ $(document).ready(function () {
             const array = [{hora:"03:00pm",nombre:"Mariana Calderon Rodriguez",consultorio:"10"},{hora:"05:30pm",nombre:"Daniel Moncada Perez",consultorio:"11"},{hora:"85:30pm",nombre:"Ronny Ledezma Vazquez",consultorio:"6"} ]
                 array.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -108,7 +108,7 @@ $(document).ready(function () {
             const array = [{hora:"01:00pm",nombre:"Mariana Calderon Rodriguez",consultorio:"13"},{hora:"05:30pm",nombre:"Daniel Moncada Perez",consultorio:"14"},{hora:"05:30pm",nombre:"Ronny Ledezma Vazquez",consultorio:"15"} ]
                 array.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -116,7 +116,7 @@ $(document).ready(function () {
             const array = [{hora:"04:00pm",nombre:"Joshua Mora Castro",consultorio:"16"},{hora:"04:30pm",nombre:"Maygel Aguirre Azofeifa",consultorio:"17"},{hora:"05:30pm",nombre:"Naomy Bonilla Arauz",consultorio:"18"} ]
                 array.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -124,7 +124,7 @@ $(document).ready(function () {
             const array = [{hora:"02:00pm",nombre:"Josbel Herrera Obando",consultorio:"19"},{hora:"03:30pm",nombre:"Adalberto Martinez Morales",consultorio:"20"},{hora:"04:30pm",nombre:"Genesis Quintero Vargas",consultorio:"21"} ]
                 array.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -132,7 +132,7 @@ $(document).ready(function () {
             const array = [{hora:"03:00pm",nombre:"Mareth Morales Rodriguez",consultorio:"22"},{hora:"06:30pm",nombre:"Daniela Guiterrez Valverde",consultorio:"23"},{hora:"08:30pm",nombre:"Katherine Carrión Jimenez",consultorio:"24"} ]
                 array.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
@@ -140,7 +140,7 @@ $(document).ready(function () {
             const array = [{hora:"01:00pm",nombre:"Samira Perez Torres",consultorio:"1"},{hora:"05:30pm",nombre:"Manuel Elizondo Gomez",consultorio:"2"},{hora:"05:30pm",nombre:"Daphne Loria Martinez",consultorio:"3"} ]
                 array.forEach(element => {
                     $("#table_cita>tbody").append(`<tr><td>${dateCita}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${valueServicio}</td><td>${element.consultorio}</td>
-                <td><button class="btn-table" tabindex="35"><a href="expendiente.html">Agregar Cita</a></button></td></tr>`);
+                <td><button class="btn-table" tabindex="35">Agregar Cita</button></td></tr>`);
                 });
                 agregarCitaTable()  
         }
