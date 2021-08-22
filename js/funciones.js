@@ -13,7 +13,7 @@ $(document).ready(function () {
     //Funcion volver al inicio
     $(".btn_container").click(function (e) { 
         e.preventDefault();
-        location.href = "log_in.html"
+        window.location.href = "log_in.html"
     });
     //Función del botón login
     $("#btn_logear").click(function (e) { 
@@ -181,7 +181,7 @@ $(document).ready(function () {
             localStorage.setItem("Guardar_Cita", arrayJson)
             console.log(arrayJson)
         });
-        window.location.href= `/views/expendiente.html`
+        window.location.href= "expendiente.html"
     }); 
    }
     //Funcion registrar persona
