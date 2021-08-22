@@ -6,6 +6,7 @@ $(document).ready(function () {
     });
     //Función del botón registrar
     $("#btn_registrar").click(function (e) { 
+        e.preventDefault();
         registrarPersona()
         $("#message").addClass("message-sucess").text("Se ha registrado con existo");
     });
@@ -16,6 +17,7 @@ $(document).ready(function () {
     });
     //Función del botón login
     $("#btn_logear").click(function (e) { 
+        e.preventDefault();
         const email = $("#email_login").val();
         const password = $("#password_login").val();
         const rol = $("#rol_login").val();
