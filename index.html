@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="title" content="Hospital Metropolitano 506">
+    <meta name="description"
+        content="El Hospital Metropolitano 506 esta equipado con la última tecnología en medica. Además ofrecemos varios servicios que pueden ser de su utilidad. Nuestro equipo de trabajo esta altamente calificado para cualquier tipo de incidente médico que ocurra. Estamos para servirle a usted y su familia.">
+    <meta name="keywords"
+        content="Hospital, Metropolitano, 506, Hospital Metropolitano, hospital, metropolitano, hospital metropolitano 506, Hospital Metropolitano 506">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Spanish">
+    <meta name="author" content="José Andrey Elizondo Marín">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Metropolitano 506</title>
+
+    <link rel="shortcut icon" href="assets/img/Hospital Metropolitano 2.svg">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <script src="https://kit.fontawesome.com/c58dcf34a3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <!-- Aqui se hace la creación y implementación del header -->
+    <header class="header_container">
+        <img class="header_img" src="assets/img/img_header.jpg" alt="Imagen de médicos en el header"
+            title="Imagen del header">
+        <section class="header-box">
+            <p>Hospital</p>
+            <p class="parrafo-verde">Metropolitano</p>
+            <p>506</p>
+        </section>
+    </header>
+    <!-- Este es el menu de navegacion -->
+    <nav class="navbar">
+        <section class="navbar_menu">
+            <button type="submit" class="nav-btn-hidden"><i class="fas fa-bars"></i></button>
+            <img class="nav-image" src="assets/img/Hospital Metropolitano 2.svg"
+                alt="Logo del Hospital Creado por los desarrolladores" title="Imagen Logo" tabindex="1">
+        </section>
+        <ul class="nav-menu">
+            <form>
+                <input type="search" tabindex="2" placeholder="Buscando...">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+            <li class="nav-item"><a class="nav-link" href="index.html" tabindex="3">Inicio</a></li>
+            <li id="servicios" class="nav-item"><a class="nav-link" href="#" tabindex="4">Servicios</a>
+                <ul class="nav-hidden">
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#medicina_general" tabindex="5">Medicina General</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#cirugia_ambulatoria" tabindex="6">Cirugía Ambulatoria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#nutricion" tabindex="7">Nutrición</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#psicologia" tabindex="8">Psicología</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#psiquiatria" tabindex="9">Psiquitria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#ortopedia" tabindex="10">Ortopedia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#fisioterapia" tabindex="11">Fisioterapia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#cardiologia" tabindex="12">Cardiología</a></li>
+                    <li class="nav-item"><a class="nav-link" href="views/servicios.html#laboratorio" tabindex="13">Laboratorio</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav-menu-left">
+            <li class="nav-item"><a class="nav-link" href="views/sing_up.html" tabindex="14"> Registrarse</a></li>
+            <li class="nav-item"><a class="nav-link" href="views/log_in.html" tabindex="15">Login</a></li>
+            <select name="" id="">
+                <option value="español">Español</option>
+                <option value="ingles">Ingles</option>
+                <option value="aleman">Aleman</option>
+                <option value="italiano">Italiano</option>
+                <option value="portugal">Portugues</option>
+                <option value="francias">Frances</option>
+            </select>
+        </ul>
+    </nav>
+    <!-- Esta es la parte principal de la pagina donde va el contenido -->
+    <main class="body-container">
+        <h1>Servicios Disponibles</h1>
+        <section class="body-box">
+            <!-- cambiar el div por article -->
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/medicina-general.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Medicina General</h4>
+                <p class="box-info">Resolución de  patologías que afectan a los seres humanos y aplica el conocimiento técnico para la promoción de la salud, prevención, diagnóstico y tratamiento de dichas patologías, desde la niñez hasta la vejez, esto sin consagrarse en ninguna especialidad médica.</p>
+                <a class="box-link" href="views/servicios.html#medicina_general" title="Leer más" tabindex="16">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/cirugia.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Cirugía Ambulatorioa</h4>
+                <p class="box-info">Se considerarán como tales las intervenciones quirúrgicas realizadas bajo anestesia general, local, regional o sedación, que requieren cuidados postoperatorios poco intensivos y de corta duración y en las que está previsto el alta de forma inmediata o a las pocas horas de la intervención.</p>
+                <a class="box-link" href="views/servicios.html#cirugia_ambulatoria">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/nutricion.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Nutrición</h4>
+                <p class="box-info">La nutrición es el proceso biológico en el que los organismos animales y vegetales absorben de los alimentos los nutrientes necesarios para la vida..</p>
+                <a class="box-link" href="views/servicios.html#nutricion" title="Leer más" tabindex="17">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/piscologia.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Psicología</h4>
+                <p class="box-info">La psicología es una disciplina que tiene como objetivo analizar los procesos mentales y del comportamiento de los seres humanos y sus interacciones con el ambiente físico y social.</p>
+                <a class="box-link" href="views/servicios.html#psicologia" title="Leer más" tabindex="18">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/psiquiatria.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Psiquitría</h4>
+                <p class="box-info">La psiquiatría es la especialidad médica que estudia las enfermedades mentales, sus tipos, causas, cursos y tratamientos. Los psiquiatras, por tanto, son médicos, que después de licenciarse en; medicina, se especializan en psiquiatría.</p>
+                <a class="box-link" href="views/servicios.html#psiquiatria" title="Leer más" tabindex="19">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/ortopedía.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Ortopedia</h4>
+                <p class="box-info">La ortopedia es la técnica que busca corregir o evitar las deformidades del cuerpo humano mediante ejercicios corporales o diversos aparatos. Los aparatos ortopédicos son denominados órtosis u ortesis, y se diferencian de las prótesis (que buscan reemplazar de forma artificial alguna parte del cuerpo que, por algún motivo, falta).</p>
+                <a class="box-link" href="views/servicios.html#ortopedia" title="Leer más" tabindex="20">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/Fisioterapia.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Fisioterapia</h4>
+                <p class="box-info">El arte y la ciencia del tratamiento por medio del ejercicio terapéutico, calor, frío, luz, agua, masaje y electricidad. Además, la Fisioterapia incluye la ejecución de pruebas eléctricas y manuales para determinar el valor de la afectación y fuerza muscular, pruebas para determinar las capacidades funcionales, la amplitud del movimiento articular y medidas de la capacidad vital, así como ayudas diagnósticas para el control de la evolución</p>
+                <a class="box-link" href="views/servicios.html#fisioterapia" title="Leer más" tabindex="21">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/cardiologia.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Cardiología</h4>
+                <p class="box-info">Rama de la medicina que se especiliza en el diagnóstico y tratamiento de enfermedades del corazón, los vasos sanguíneos y el sistema circulatorio. Estas enfermedades incluyen enfermedad de las arterias coronarias, problemas del ritmo del corazón e insuficiencia cardíaca.</p>
+                <a class="box-link" href="views/servicios.html#cardiologia" title="Leer más" tabindex="22">Leer más...</a>
+            </article>
+            <article class="body-box-info">
+                <img class="img-box" src="assets/img/laboratorio.jpg" alt="Imagen de un montaña en blanco y negro">
+                <h4>Laboratorio</h4>
+                <p class="box-info">El servicio de Laboratorio Clínico constituye una unidad funcional cuyo principal objetivo es proporcionar datos de análisis cualitativos y cuantitativos realizados a muestras biológicas, con fines de contribuir a la prevención, diagnóstico y tratamiento de las enfermedades humanas.</p>
+                <a class="box-link" href="views/servicios.html#laboratorio" title="Leer más" tabindex="23">Leer más...</a>
+            </article>
+        </section>
+    </main>
+    <!-- Empezamos la construcción de footer -->
+    <footer class="footer-container">
+        <section class="footer-box">
+            <!-- section de ubicación  -->
+            <section class="footer-card">
+                <h2>Ubicación</h2>
+                <section class="footer-section">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>San José, Curridabat</p>
+                </section>
+                <iframe class="footer-map" tabindex="24"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31441.735983776944!2d-84.05251884776494!3d9.915877246158725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3bf9923854d%3A0x6902098cdd1bda50!2sSan%20Jos%C3%A9%2C%20Curridabat!5e0!3m2!1ses!2scr!4v1625002159875!5m2!1ses!2scr"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <!-- Sección de servicios -->
+            <section class="footer-card">
+                <h2>Servicios</h2>
+                <ul class="footer-nav-menu">
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#medicina_general" tabindex="25">Medicina General</a>
+                    </li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#cirugia_ambulatoria" tabindex="26">Cirugía
+                            Ambulatoria</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#nutricion" tabindex="27">Nutrición</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#psicologia" tabindex="28">Psicología</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#psiquiatria" tabindex="29">Psiquitria</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#ortopedia" tabindex="30">Ortopedia</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#fisioterapia" tabindex="31">Fisioterapia</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#cardiologia" tabindex="32">Cardiología</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="views/servicios.html#laboratorio" tabindex="33">Laboratorio</a></li>
+                </ul>
+            </section>
+            <!-- Section de contacto y redes sociales -->
+            <section class="footer-card">
+                <h2>Contactos</h2>
+                <section class="footer-info">
+                    <article class="footer-section">
+                        <i class="fas fa-phone-alt"></i>
+                        <p class="footer-paragraph">Teléfono:</p>
+                        <p>+506 2789-2878</p>
+                    </article>
+                    <article class="footer-section">
+                        <i class="fas fa-phone-alt"></i>
+                        <p class="footer-paragraph">WhatSapp:</p>
+                        <p>+506 86678993</p>
+                    </article>
+                    <article class="footer-section">
+                        <i class="fas fa-envelope"></i>
+                        <p class="footer-paragraph">Email:</p>
+                        <p>contactos.servicios@hospitalmetro506.com</p>
+                    </article>
+                </section>
+                <section class="footer-section-redes">
+                    <h2>Redes Sociales</h2>
+                    <a class="footer-link-redes" href="https://www.facebook.com/" tabindex="34"><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="footer-link-redes" href="https://www.instagram.com/" tabindex="35"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="footer-link-redes" href="https://www.linkedin.com/" tabindex="36"><i
+                            class="fab fa-linkedin"></i></a>
+                </section>
+            </section>
+        </section>
+        <section class="footer-copy-right">
+            <p>Copy Right by Digital Solutions @2021</p>
+        </section>
+    </footer>
+    
+</body>
+
+</html>
