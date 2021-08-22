@@ -25,8 +25,10 @@ $(document).ready(function () {
         for (let i = 0; i < comeData.length; i++) {
             const element = comeData[i];
             if (email === element.email && password === element.password && rol === element.rol) {
-                redirectionPage(rol)
                 $("#message_login").removeClass("message-error").addClass("message-sucess").text("¡Se ha logueado correctamente!");
+                if (rol === "Administrador") {
+                    location.href= "administrador.html"
+                }
                 break;
             }else{
                 $("#message_login").removeClass("message-sucess").addClass("message-error").text('Ese usuario no existe. ¡Por favor valla a registrarse! Lo vamos a redirrecionar en momento');;
@@ -145,22 +147,22 @@ $(document).ready(function () {
         // alert(valueServicio)
     });
     //Función de redirreciones de páginas
-    function redirectionPage(rol) {
-        switch (rol) {
-            case "Administrador":
-                window.location.href= "administrador.html"
-                break;
-            case "Soporte":
-                window.location.href= "soporte.html"
-                break;
-            case "Operaciones":
-                window.location.href= "operaciones.html"
-                break;
-            default:
-                window.location.href= `expendiente.html`
-                break;
-        }
-    }
+    // function redirectionPage(rol) {
+    //     switch (rol) {
+    //         case "Administrador":
+    //             window.location.href= "administrador.html"
+    //             break;
+    //         case "Soporte":
+    //             window.location.href= "soporte.html"
+    //             break;
+    //         case "Operaciones":
+    //             window.location.href= "operaciones.html"
+    //             break;
+    //         default:
+    //             window.location.href= `expendiente.html`
+    //             break;
+    //     }
+    // }
    //Agregar cita de una tabla
    function agregarCitaTable() {
        //Funión de btn_table para agregar cita
