@@ -146,13 +146,13 @@ $(document).ready(function () {
     function redirectionPage(rol) {
         switch (rol) {
             case "Administrador":
-                window.location.href= `${rol}.html`
+                window.location.href= `administrador.html`
                 break;
             case "Soporte":
-                window.location.href= `${rol}.html`
+                window.location.href= `soporte.html`
                 break;
             case "Operaciones":
-                window.location.href= `${rol}.html`
+                window.location.href= `operaciones.html`
                 break;
             default:
                 window.location.href= `expendiente.html`
