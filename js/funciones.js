@@ -37,7 +37,7 @@ $(document).ready(function () {
     });
     //Pequeños detalles
     function nombreExpediente() {
-        let obtenerDatos = JSON.parse(localStorage.getItem("Usuarios registrador"))
+        let obtenerDatos = JSON.parse(localStorage.getItem("Usuarios registrador")) || []
         obtenerDatos.forEach(element => {
             if (element.rol === "Usuario") {
                 $("#nombre_usuario1").text(element.fullName);
@@ -54,7 +54,7 @@ $(document).ready(function () {
     nombreExpediente();
     //Cargar datos en el expendiente
     function cargarDatosExpediente() {
-        let obtenerDatos  =  JSON.parse(localStorage.getItem("Guardar_Cita")) ||[]
+        let obtenerDatos  =  JSON.parse(localStorage.getItem("Guardar_Cita")) || []
         obtenerDatos.forEach(element => {
             $("#tbl_expediente").append(`<tr><td>${element.date}</td><td>${element.hora}</td><td>${element.nombre}</td><td>${element.servicio}</td><td>${element.consultorio}</td></tr>`);
         });
