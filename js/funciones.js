@@ -179,10 +179,8 @@ $(document).ready(function () {
             arrayCita.push(objectResult)
             let arrayJson = JSON.stringify(arrayCita)
             localStorage.setItem("Guardar_Cita", arrayJson)
-            console.log(arrayJson)
-            window.location.href= "expendiente.html"
         });
-        
+        window.location.href= "expendiente.html"
     }); 
    }
     //Funcion registrar persona
