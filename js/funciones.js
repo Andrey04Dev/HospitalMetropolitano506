@@ -146,16 +146,16 @@ $(document).ready(function () {
     function redirectionPage(rol) {
         switch (rol) {
             case "Administrador":
-                window.location.href= `administrador.html`
+                window.location= `administrador.html`
                 break;
             case "Soporte":
-                window.location.href= `soporte.html`
+                window.location= `soporte.html`
                 break;
             case "Operaciones":
-                window.location.href= `operaciones.html`
+                window.location= `operaciones.html`
                 break;
             default:
-                window.location.href= `expendiente.html`
+                window.location= `expendiente.html`
                 break;
         }
     }
