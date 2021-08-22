@@ -146,16 +146,16 @@ $(document).ready(function () {
     function redirectionPage(rol) {
         switch (rol) {
             case "Administrador":
-                window.location.pathname= `/views/${rol}.html`
+                window.location.href= `${rol}.html`
                 break;
             case "Soporte":
-                window.location.pathname= `/views/${rol}.html`
+                window.location.href= `${rol}.html`
                 break;
             case "Operaciones":
-                window.location.pathname= `/views/${rol}.html`
+                window.location.href= `${rol}.html`
                 break;
             default:
-                window.location.pathname= `/views/expendiente.html`
+                window.location.href= `expendiente.html`
                 break;
         }
     }
