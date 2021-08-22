@@ -27,9 +27,8 @@ $(document).ready(function () {
             if (email === element.email && password === element.password && rol === element.rol) {
                 $("#message_login").removeClass("message-error").addClass("message-sucess").text("¡Se ha logueado correctamente!");
                 if (rol === "Administrador") {
-                    location.href= "administrador.html"
+                    window.location.href="administrador.html"
                 }
-                break;
             }else{
                 $("#message_login").removeClass("message-sucess").addClass("message-error").text('Ese usuario no existe. ¡Por favor valla a registrarse! Lo vamos a redirrecionar en momento');;
                 setInterval(() => {
